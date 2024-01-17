@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.imageSliderBlock {
+    width: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fac17a;
+    border-radius: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.navigationPoints {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.point {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(204, 203, 203);
+}
+
+.point:hover {
+    background-color: #f5d9b8;
+}
+
+.active {
+    background-color: #fac17a;
+}
+
+.active:hover {
+    background-color: #fac17a;
+}
+
+.buttons {
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #f5d9b8;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #fac17a;
+}
